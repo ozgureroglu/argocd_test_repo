@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: nginx-deployment
+  name: argocd-nginx-deployment
 spec:
   selector:
     matchLabels:

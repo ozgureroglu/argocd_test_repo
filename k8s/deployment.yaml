@@ -4,7 +4,7 @@ metadata:
   labels:
     app: nginx
   name: argocd-nginx-deployment-stag
-  namespace: stag-ns
+  namespace: staging-ns
 spec:
   selector:
     matchLabels:

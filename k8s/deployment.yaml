@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: argocd-nginx-deployment
+  name: argocd-nginx-deployment-stag
+  namespace: stag-ns
 spec:
   selector:
     matchLabels:

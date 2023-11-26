@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: argocd-nginx-service
+  namespace: stag-ns
   labels:
     app: nginx
 spec:

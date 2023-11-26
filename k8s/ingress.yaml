@@ -13,7 +13,7 @@ spec:
   - host: test.qubitera.com
     http:
       paths:
-      - path: /argocd-nginx
+      - path: /argocd-nginx-prod
         pathType: Prefix
         backend:
           service:
